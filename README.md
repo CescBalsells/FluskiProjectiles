@@ -15,23 +15,26 @@ Unlike the normal ProjectileMovementComponent this one has to be thrown using th
  
  ## Projectiles
  
- The plugin also includes diferent type of projectiles listed below:
- 
- 1. BaseProjectile
- 2. DamageProjectile
- 3. ChargedProjectile
- 4. ExplosiveProjectile
- 5. GrenadeProecjtile
+ The plugin also includes diferent type of projectiles that can be used as Actors, and are already setted.
  
  ### BaseProjectile
+ Base class of the projectiles which has the basic funcions as the spawn and Throw ones. The other projectiles inherit from this base class.
  
  ### DamageProjectile
- 
- ### ChargedProjectile
+ This projectile inherits from the BaseProjectile and includes a Damage Value that can be used to DealDamage after a collision with an enemy.
  
  ### ExplosiveProjectile
+ This projectile inherits from the BaseProjectile, includes diferent parameters used to manage the damage of an explosion and also a callback Event used when the    projectile explodes
+ 
+ ### ChargedProjectile
+ This projectile inherits from the BaseProjectile, adds a min and a max damage that the projectile should deal depending on how charged it is when its thrown.
  
  ### GrenadeProecjtile
+ This projectile inherits from the ExplosiveProjectile, a projectile that has an explosion timer and explodes when the timer finishes.
+ 
+ ## Gizmo Projecile
+ As last but not less important ther's the Gizmo projectile which is used to determine the path that will follow the projectile and the hit location. The Gizmo is implemented on the Projectile Launcher blueprints that contains the plugin as example.
+
  
 
 
