@@ -24,25 +24,25 @@ Unlike the normal ProjectileMovementComponent this one has to be thrown using th
  ### DamageProjectile
  This projectile inherits from the BaseProjectile and includes a Damage Value that can be used to DealDamage after a collision with an enemy.
  
-https://user-images.githubusercontent.com/45798069/226691150-ca949e71-8d7e-40af-af6e-6f2207bb2350.mp4
+![Damage](https://user-images.githubusercontent.com/45798069/226693996-129ca05e-af26-40cc-8c58-a4ebf6b2f211.gif)
 
 
  ### ExplosiveProjectile
  This projectile inherits from the BaseProjectile, includes diferent parameters used to manage the damage of an explosion and also a callback Event used when the    projectile explodes
- 
-https://user-images.githubusercontent.com/45798069/226693015-165d6678-9c6c-48ce-a7d6-53030d5f09ee.mp4
+
+![Explosive](https://user-images.githubusercontent.com/45798069/226694038-11b10b97-b627-4ea2-aace-607a4c211ea2.gif)
 
 
  ### ChargedProjectile
  This projectile inherits from the BaseProjectile, adds a min and a max damage that the projectile should deal depending on how charged it is when its thrown.
  
-https://user-images.githubusercontent.com/45798069/226691589-1c3d25ce-3306-4b32-9150-5958a7728491.mp4
+![Charged](https://user-images.githubusercontent.com/45798069/226694073-17498682-41b0-4e51-917d-1d098087ed0b.gif)
 
 
  ### GrenadeProecjtile
  This projectile inherits from the ExplosiveProjectile, a projectile that has an explosion timer and explodes when the timer finishes.
  
-https://user-images.githubusercontent.com/45798069/226690718-2dad658e-7029-4ed7-a45f-2900a89c380d.mp4
+![Grenade](https://user-images.githubusercontent.com/45798069/226694098-b0e2e4bb-af9c-4447-b6b3-05114245efbf.gif)
 
 
  ## Gizmo Projecile
