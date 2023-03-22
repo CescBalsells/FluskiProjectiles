@@ -22,9 +22,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category=FluskiProjectile)
 	UFluskiProjectileMovementComponent* ProjectileMovement;
 
-protected:
-	bool bProjectileExploded;
-
 public:
 	ABaseProjectile(const FObjectInitializer& ObjectInitializer);
 

@@ -9,7 +9,7 @@ class FLUSKIPROJECTILES_API AExplosiveProjectile : public ABaseProjectile
 	GENERATED_BODY()
 
 public:
-	/** Radius of the epxlosion */
+	/** Radius of the explosion */
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category=FluskiProjectile)
 	float ExplosionRadius = 200.0f;
 
@@ -32,6 +32,9 @@ public:
 	/** Event called when the projectile explodes */
 	UFUNCTION(BlueprintNativeEvent, Category=FluskiProjectile)
 	void OnProjectileExplosion();
+
+protected:
+	bool bProjectileExploded;
 
 public:
 	/** Event called when the grenade explodes */

@@ -11,7 +11,7 @@ class FLUSKIPROJECTILES_API UFluskiProjectileMovementComponent : public UProject
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectileDistanceReachedDelegate)
 
 public:
-	/** If the projectile is charged the Initial Speed will be overwrtten by the Charged Speed */
+	/** If the projectile is charged, the projectile speed used to throw it will be the Charged Speed and not the Initial Speed */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Charged)
 	uint8 bIsChargedProjectile:1;
 

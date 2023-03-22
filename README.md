@@ -1,6 +1,6 @@
 # FluskiProjectiles
  
- The Plug-in includes the FluskiProjectileMovementComponent and the 5 Projectile Actors.
+ The Plug-in includes the FluskiProjectileMovementComponent and the 5 Projectile Actors. The 5 Projectile Actors have it's own BP_ProjectileLaunchers as example of how the projectiles can be used. All the Projectile Launchers BP inherit from the BP_BaseProjecileLauncher.
  
  ![FluskiProjectilesPlugin](https://user-images.githubusercontent.com/45798069/226667933-d7fa6bb9-52dd-44cd-953e-ef551683b5f9.PNG)
  
@@ -28,7 +28,7 @@ Unlike the normal ProjectileMovementComponent this one has to be thrown using th
 
 
  ### ExplosiveProjectile
- This projectile inherits from the BaseProjectile, includes diferent parameters used to manage the damage of an explosion and also a callback Event used when the    projectile explodes
+ This projectile inherits from the BaseProjectile, includes diferent parameters used to manage the damage of an explosion and also a callback Event used when the    projectile explodes.
 
 ![Explosive](https://user-images.githubusercontent.com/45798069/226694038-11b10b97-b627-4ea2-aace-607a4c211ea2.gif)
 
@@ -39,13 +39,13 @@ Unlike the normal ProjectileMovementComponent this one has to be thrown using th
 ![Charged](https://user-images.githubusercontent.com/45798069/226694073-17498682-41b0-4e51-917d-1d098087ed0b.gif)
 
 
- ### GrenadeProecjtile
+ ### GrenadeProjectile
  This projectile inherits from the ExplosiveProjectile, a projectile that has an explosion timer and explodes when the timer finishes.
  
 ![Grenade](https://user-images.githubusercontent.com/45798069/226694098-b0e2e4bb-af9c-4447-b6b3-05114245efbf.gif)
 
 
- ## Gizmo Projecile
+ ## Projecile Gizmo
  As last but not less important ther's the Gizmo projectile which is used to determine the path that will follow the projectile and the hit location. The Gizmo is implemented on the Projectile Launcher blueprints that contains the plugin as example.
 
  
