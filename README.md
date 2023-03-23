@@ -1,5 +1,7 @@
 # FluskiProjectiles
  
+ Unreal Engine Plug-in which contains different projectile types and a ProjectileMovementComponent with extended functionalities.
+ 
  The Plug-in includes the FluskiProjectileMovementComponent and the 5 Projectile Actors. The 5 Projectile Actors have it's own BP_ProjectileLaunchers as example of how the projectiles can be used. All the Projectile Launchers BP inherit from the BP_BaseProjecileLauncher.
  
  ![FluskiProjectilesPlugin](https://user-images.githubusercontent.com/45798069/226667933-d7fa6bb9-52dd-44cd-953e-ef551683b5f9.PNG)
